@@ -1,0 +1,53 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Aviation_Conn_3P
+#
+DEF Aviation_Conn_3P J 0 40 Y Y 1 F N
+F0 "J" -300 -350 50 H V C CNN
+F1 "Aviation_Conn_3P" 0 350 50 H V C CNN
+F2 "_Connectors:Aviation_Conn_3P_Edge" 0 350 50 H I C CNN
+F3 "" 0 350 50 H I C CNN
+DRAW
+A 0 250 50 -1799 -1 0 0 0 N -50 250 50 250
+C -100 100 50 0 1 0 N
+C 0 -100 50 0 1 0 N
+C 0 0 250 0 1 0 N
+C 100 100 50 0 1 0 N
+T 0 -100 100 50 0 0 0 1 Normal 0 C C
+T 0 0 -100 50 0 0 0 2 Normal 0 C C
+T 0 100 100 50 0 0 0 3 Normal 0 C C
+S -300 300 300 -300 0 0 0 f
+X ~ 1 -400 100 100 R 50 50 1 1 P
+X ~ 2 -400 0 100 R 50 50 1 1 P
+X ~ 3 -400 -100 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Aviation_Conn_4P
+#
+DEF Aviation_Conn_4P J 0 40 Y Y 1 F N
+F0 "J" -300 -350 50 H V C CNN
+F1 "Aviation_Conn_4P" 0 350 50 H V C CNN
+F2 "_Connectors:Aviation_Conn_4P_Edge" 0 350 50 H I C CNN
+F3 "" 0 350 50 H I C CNN
+DRAW
+A 0 250 50 -1799 -1 0 0 0 N -50 250 50 250
+C -100 -100 50 0 1 0 N
+C -100 100 50 0 1 0 N
+C 0 0 250 0 1 0 N
+C 100 -100 50 0 1 0 N
+C 100 100 50 0 1 0 N
+T 0 -100 100 50 0 0 0 1 Normal 0 C C
+T 0 -100 -100 50 0 0 0 2 Normal 0 C C
+T 0 100 -100 50 0 0 0 3 Normal 0 C C
+T 0 100 100 50 0 0 0 4 Normal 0 C C
+S -300 300 300 -300 0 0 0 f
+X ~ 1 -400 150 100 R 50 50 1 1 P
+X ~ 2 -400 50 100 R 50 50 1 1 P
+X ~ 3 -400 -50 100 R 50 50 1 1 P
+X ~ 4 -400 -150 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
